@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.Nav-Head {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  align-items: center;
+  position: fixed;
+  padding: 10px;
+  background-color: white;
+  margin-bottom: 10px;
+}
+.Nav-Head img {
+  width: 45%;
+}
+.Nav-Head p {
+  margin-right: 50px;
+}
+
+.Content {
+  width: 80%;
+  margin: auto;
+}
+
+.Content h1 {
+  width: 100%;
+  color: black;
+  font-size: 23px;
+  font-weight: bold;
+  margin: 0 0 0 0;
+  padding: 0;
+  line-height: 35px;
+}
+.Content div {
+  width: 100%;
+  text-align: justify;
+  margin: 10px 0 15px 0px;
+  padding: 0;
+  font-size: 18px;
+  line-height: 160%;
+}
+.p1 {
+  width: 70%;
+  margin: auto;
+  font-weight: bolder;
+  text-align: left;
+  margin-top: 30px;
+  text-align: justify;
+}
+.Content-Box-II {
+  width: 80%;
+  margin: auto;
+}
+.Content-Box-II img{
+    margin-top: 30px;
+}
+
+.Content-Box-II h1{
+    text-align: left;
+    font-weight: bolder;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+.Content-Box-II p{
+    text-align: left;
+    font-weight: 400;
+    text-align: justify;
+}
