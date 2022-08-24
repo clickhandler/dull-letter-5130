@@ -1,7 +1,7 @@
 import React from "react";
 import { FaFacebookSquare, FaInstagram } from "react-icons/fa";
 import "../Style/Navbar.css";
-import {Link} from 'react-router-dom'
+import {NavLink} from 'react-router-dom'
 const Navbar = () => {
   return (
     <>
@@ -14,16 +14,16 @@ const Navbar = () => {
         </div>
       </div>
       <div className="Links">
-       <Link to={"/cities"}><div>JOIN THE MOVEMENT</div></Link>
-       <Link to={"/partners"}> <div>PARTNERS</div></Link>
+       <NavLink style={({isActive})=>{return{color:isActive?"orange":""}}} to={"/cities"}><div>JOIN THE MOVEMENT</div></NavLink>
+       <NavLink  style={({isActive})=>{return{color:isActive?"orange":""}}} to={"/partners"}> <div>PARTNERS</div></NavLink>
         <div>CALENDER</div>
         <div>THE APP</div>
         <div>CONTACT US</div>
         <div>REGISTER</div>
-       <a href="https://www.facebook.com/" target={"_blank"}><div style={{ color: "#4267B2" }}>
+       <a rel="noreferrer" href="https://www.facebook.com/" target={"_blank"}><div style={{ color: "#4267B2" }}>
           <FaFacebookSquare />
         </div></a> 
-      <a href="https://www.instagram.com/" target={"_blank"}>  <div style={{ color: "#8a3ab9" }}>
+      <a rel="noreferrer" href="https://www.instagram.com/" target={"_blank"}>  <div style={{ color: "#8a3ab9" }}>
           <FaInstagram />
         </div></a>
       </div>

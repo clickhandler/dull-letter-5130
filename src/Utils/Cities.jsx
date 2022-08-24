@@ -51,7 +51,7 @@ const Cities = () => {
             <li>Third, by requesting to add your business or organization.</li>
           </ul>
         </div>
-        <Button className="BTN" colorScheme="blue">
+        <Button className="BTNS" colorScheme="blue">
           <FcOk />
           REGISTER HERE
         </Button>
@@ -61,10 +61,10 @@ const Cities = () => {
           SparkAmerica, download our toolkit!
         </p>
         <a
-          href="https://spark360prodstorage.blob.core.windows.net/publicfiles/2022%20SparkAmerica%20Toolkit.pdf"
+             rel="noreferrer" href="https://spark360prodstorage.blob.core.windows.net/publicfiles/2022%20SparkAmerica%20Toolkit.pdf"
           target={"_blank"}
         >
-          <Button className="BTN" colorScheme="blue">
+          <Button className="BTNS" colorScheme="blue">
             <FcSurvey /> DOWNLOAD THE TOOLKIT (PDF)
           </Button>
         </a>

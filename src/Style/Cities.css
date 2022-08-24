@@ -1,19 +1,16 @@
-*{
-    margin: 0;padding: 0;box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-.Content{
-    width: 80%;
-    margin: auto;
-    
+.Content {
+  width: 80%;
+  margin: auto;
 }
 
-.Content div{
-   
-    margin-top: 30px;
+.Content div + p {
+  text-align: left;
 }
-.Content div+p{
-    text-align: left;
-}
-.BTN{
-    margin: 30px;
+.BTN {
+  margin: 30px;
 }
