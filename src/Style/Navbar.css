@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* .Navbar{
+    width: 40%;
+    margin: auto;
+    
+   
+} */
+.Navbar img {
+  width: 42%;
+  margin: auto;
+  padding: 20px;
+}
+.Links {
+  display: flex;
+  width: 70%;
+  margin: auto;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 2px solid red;
+  align-items: center;
+  font-weight: bold;
+}
+.Links div:hover{
+    color: red;
+    cursor: pointer;
+}

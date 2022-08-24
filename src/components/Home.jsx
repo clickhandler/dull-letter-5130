@@ -3,6 +3,7 @@ import "../Style/Home.css";
 import { FcSearch } from "react-icons/fc";
 import { Button } from "@chakra-ui/react";
 
+
 const Home = () => {
   return (
     <div className="App">
@@ -61,7 +62,7 @@ const Home = () => {
           </div>
         </div>
         <div>
-          <Button colorScheme="blue" size="lg">
+      <Button colorScheme="blue" size="lg">
             Join SparkAmerica Now
           </Button>
         </div>
