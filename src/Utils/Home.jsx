@@ -2,7 +2,7 @@ import React from "react";
 import "../Style/Home.css";
 import { FcSearch } from "react-icons/fc";
 import { Button } from "@chakra-ui/react";
-
+import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
@@ -18,12 +18,12 @@ const Home = () => {
         <div>
           <p>
             SparkPeople closed in August 2021.{" "}
-            <a
+            <Link
               style={{ color: "#007FC4", textDecoration: "underline" }}
-              href="https://sparkamerica.com/"
+              to={"/cities"}
             >
               Visit SparkAmerica.com
-            </a>{" "}
+            </Link>{" "}
             for our free new experience.
           </p>
         </div>
@@ -62,9 +62,11 @@ const Home = () => {
           </div>
         </div>
         <div>
-      <Button colorScheme="blue" size="lg">
-            Join SparkAmerica Now
-          </Button>
+          <Link to={"/cities"}>
+            <Button colorScheme="blue" size="lg">
+              Join SparkAmerica Now
+            </Button>
+          </Link>
         </div>
         <div>
           <p className="p1">
@@ -100,7 +102,7 @@ const Home = () => {
             for the same advertising dollars that would keep the site online and
             alive. Unfortunately, it costs many millions of dollars per year to
             run SparkPeople, and the burden eventually became too much.
-            <br/>
+            <br />
             SparkAmerica is part of our new business model, in which we work
             with companies and organizations to help keep their employees
             healthy with PeopleOne Health. Not only does this business model
@@ -115,28 +117,62 @@ const Home = () => {
         </div>
       </div>
 
-{/* -------------------------------------------------------------------------------------------------- */}
-<div className="Footer">
-<div className="Footer-content">
-    <div>
-        <p style={{fontSize:"13px",marginTop:"5px" ,fontWeight:"bolder" }}>SparkPeople's features, community and mobile apps closed on August 17, 2021, along with its features and mobile apps.
-Some of our articles and other content are still available to view. Click here to learn more.</p>
-    </div>
-    <div>
-        <p style={{textDecoration:"underline",fontSize:"13px",cursor:"pointer"}} >Home | Diet Resources | PeopleOne Health | SparkAmerica | Healthy Recipes | Exercise Demos | Calorie Counter Tool | SparkPeople Blog Copyright SparkPeople, Inc. 2022., All Rights Reserved | Terms and Conditions | Privacy Policy | About Our Ads</p>
-    </div>
-    <div>
-        <p style={{fontSize:"13px",marginTop:"5px" }} >SparkPeople, SparkCoach, SparkPages, SparkPoints, SparkDiet, SparkAmerica, SparkRecipes, DailySpark, and other marks are trademarks of SparkPeople, Inc. All Rights Reserved.
-No portion of this website can be used without the permission of SparkPeople or its authorized affiliates.
-SPARKPEOPLE is a registered trademark of SparkPeople, Inc. in the United States, European Union, Canada, and Australia. All rights reserved.</p>
-    </div>
-    <div>
-        <p style={{fontSize:"13px",marginTop:"5px" ,fontWeight:"bolder" }}  >NOTE: Terms and Conditions and Privacy Policy last updated on October 25, 2013</p>
-    </div>
-</div>
-</div>
-
-
+      {/* -------------------------------------------------------------------------------------------------- */}
+      <div className="Footer">
+        <div className="Footer-content">
+          <div>
+            <p
+              style={{
+                fontSize: "13px",
+                marginTop: "5px",
+                fontWeight: "bolder",
+              }}
+            >
+              SparkPeople's features, community and mobile apps closed on August
+              17, 2021, along with its features and mobile apps. Some of our
+              articles and other content are still available to view. Click here
+              to learn more.
+            </p>
+          </div>
+          <div>
+            <p
+              style={{
+                textDecoration: "underline",
+                fontSize: "13px",
+                cursor: "pointer",
+              }}
+            >
+              Home | Diet Resources | PeopleOne Health | SparkAmerica | Healthy
+              Recipes | Exercise Demos | Calorie Counter Tool | SparkPeople Blog
+              Copyright SparkPeople, Inc. 2022., All Rights Reserved | Terms and
+              Conditions | Privacy Policy | About Our Ads
+            </p>
+          </div>
+          <div>
+            <p style={{ fontSize: "13px", marginTop: "5px" }}>
+              SparkPeople, SparkCoach, SparkPages, SparkPoints, SparkDiet,
+              SparkAmerica, SparkRecipes, DailySpark, and other marks are
+              trademarks of SparkPeople, Inc. All Rights Reserved. No portion of
+              this website can be used without the permission of SparkPeople or
+              its authorized affiliates. SPARKPEOPLE is a registered trademark
+              of SparkPeople, Inc. in the United States, European Union, Canada,
+              and Australia. All rights reserved.
+            </p>
+          </div>
+          <div>
+            <p
+              style={{
+                fontSize: "13px",
+                marginTop: "5px",
+                fontWeight: "bolder",
+              }}
+            >
+              NOTE: Terms and Conditions and Privacy Policy last updated on
+              October 25, 2013
+            </p>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };

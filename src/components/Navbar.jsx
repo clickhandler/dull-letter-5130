@@ -1,6 +1,7 @@
 import React from "react";
 import { FaFacebookSquare, FaInstagram } from "react-icons/fa";
 import "../Style/Navbar.css";
+import {Link} from 'react-router-dom'
 const Navbar = () => {
   return (
     <>
@@ -13,18 +14,18 @@ const Navbar = () => {
         </div>
       </div>
       <div className="Links">
-        <div>JOIN THE MOVEMENT</div>
-        <div>PARTNERS</div>
+       <Link to={"/cities"}><div>JOIN THE MOVEMENT</div></Link>
+       <Link to={"/partners"}> <div>PARTNERS</div></Link>
         <div>CALENDER</div>
         <div>THE APP</div>
         <div>CONTACT US</div>
         <div>REGISTER</div>
-        <div style={{ color: "#4267B2" }}>
+       <a href="https://www.facebook.com/" target={"_blank"}><div style={{ color: "#4267B2" }}>
           <FaFacebookSquare />
-        </div>
-        <div style={{ color: "#8a3ab9" }}>
+        </div></a> 
+      <a href="https://www.instagram.com/" target={"_blank"}>  <div style={{ color: "#8a3ab9" }}>
           <FaInstagram />
-        </div>
+        </div></a>
       </div>
     </>
   );

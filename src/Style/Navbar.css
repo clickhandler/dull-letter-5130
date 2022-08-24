@@ -25,6 +25,6 @@
   font-weight: bold;
 }
 .Links div:hover{
-    color: red;
+    color:orange;
     cursor: pointer;
 }
