@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.Boxes {
+  display: flex;
+  gap: 30px;
+  margin: auto;
+  text-align: center;
+  align-items: center;
+}
+.Boxes div {
+  width: 45%;
+  margin: auto;
+}
+/* .Boxes div:first-child {
+  border-bottom: 5px solid orange;
+} */
+.Boxes img{
+    margin: auto;
+}
+
+ 

@@ -65,7 +65,7 @@ const Partners = () => {
                         </p>
                         <Button colorScheme="red">VISIT BABB</Button>
                     </div>
-                    
+
                     <div>
                         <img src="https://secureservercdn.net/45.40.145.201/79x.0e9.myftpupload.com/wp-content/uploads/2020/12/Oswald.png" alt="partner" />
                         <h1>OSWALD COMPANIES</h1>
@@ -81,45 +81,45 @@ const Partners = () => {
                         <Button colorScheme="red">VISIT RCM&D</Button>
                     </div>
                     <div>
-                        <img style={{width:"200px"}} src="https://secureservercdn.net/45.40.145.201/79x.0e9.myftpupload.com/wp-content/uploads/2022/01/KDKA-black-and-gold-1200x1200-1-150x150.png" alt="partner" />
+                        <img style={{ width: "200px" }} src="https://secureservercdn.net/45.40.145.201/79x.0e9.myftpupload.com/wp-content/uploads/2022/01/KDKA-black-and-gold-1200x1200-1-150x150.png" alt="partner" />
                         <h1>KDKA</h1>
                         <p>KDKA,  is a CBS-affiliated television station licensed to Pittsburgh, Pennsylvania, United States.</p>
-                        
+
                         <Button colorScheme="red">KDKA</Button>
                     </div>
                     <div>
                         <img src="https://secureservercdn.net/45.40.145.201/79x.0e9.myftpupload.com/wp-content/uploads/2020/12/ABC5.png" alt="partner" />
                         <h1>ABC5</h1>
                         <p>The oldest television station in the state of Ohio, News 5 is a Scripps-owned ABC affiliate based in Cleveland. </p>
-                       
+
                         <Button colorScheme="red">ABC5</Button>
                     </div>
                     <div>
                         <img src="https://secureservercdn.net/45.40.145.201/79x.0e9.myftpupload.com/wp-content/uploads/2020/12/ABC-FOX-CW-Color-Logos-1024x221.png" alt="partner" />
                         <h1>ABC6</h1>
                         <p>WSYX is an ABC-affiliated television station licensed to Columbus, Ohio, United States. </p>
-                        
+
                         <Button colorScheme="red">ABC6</Button>
                     </div>
                     <div>
                         <img src="https://secureservercdn.net/45.40.145.201/79x.0e9.myftpupload.com/wp-content/uploads/2020/12/WCPOCincinnati.png" alt="partner" />
                         <h1>ABC6</h1>
                         <p>WCPO is an ABC-affiliated television station licensed to Cincinnati, Ohio, United States. </p>
-                        
+
                         <Button colorScheme="red">WCPO</Button>
                     </div>
                     <div>
                         <img src="https://secureservercdn.net/45.40.145.201/79x.0e9.myftpupload.com/wp-content/uploads/2020/12/MWTM.jpg" alt="partner" />
                         <h1>Move With the Mayor</h1>
                         <p>Mayors use Move with the Mayor™ to encourage residents to protect and improve their health and to make their communities more active and accessible.</p>
-                        
+
                         <Button colorScheme="red">MWTM</Button>
                     </div>
                     <div>
                         <img src="https://secureservercdn.net/45.40.145.201/79x.0e9.myftpupload.com/wp-content/uploads/2021/10/PeopleOne-Logo-Large-FC.png" alt="partner" />
                         <h1>PeopleOne Health</h1>
                         <p>At PeopleOne Health, we believe the viability and vitality of your business is directly related to the vitality and vibrancy of your employees</p>
-                    
+
                         <Button colorScheme="red">PeopleOne Health</Button>
                     </div>
                 </div>
