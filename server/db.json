@@ -133,6 +133,22 @@
       "cpassword": "Hello",
       "phone": "9090",
       "id": 6
+    },
+    {
+      "name": "testing",
+      "email": "test@test",
+      "password": "12345",
+      "cpassword": "12345",
+      "phone": "9090",
+      "id": 7
+    },
+    {
+      "name": "Kaku",
+      "email": "kaku@test",
+      "password": "1231",
+      "cpassword": "1231",
+      "phone": "0099",
+      "id": 8
     }
   ]
 }

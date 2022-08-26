@@ -3,6 +3,7 @@ import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 import { Button } from "@chakra-ui/react";
 import { FcOk, FcSurvey } from "react-icons/fc";
+import {Link} from 'react-router-dom'
 
 import "../Style/Cities.css";
 const Cities = () => {
@@ -51,10 +52,10 @@ const Cities = () => {
             <li>Third, by requesting to add your business or organization.</li>
           </ul>
         </div>
-        <Button className="BTNS" colorScheme="blue">
+     <Link to={"/register"} >   <Button className="BTNS" colorScheme="blue">
           <FcOk />
           REGISTER HERE
-        </Button>
+        </Button></Link>
         <p>
           If you want to learn more about how the SparkAmerica Fit City
           Challenge works and also learn how you can connect to the tools inside

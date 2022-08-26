@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, {useState } from "react";
 
 import "../Style/Register.css";
 import { Input, Button, useDisclosure } from "@chakra-ui/react";
