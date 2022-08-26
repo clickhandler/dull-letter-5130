@@ -47,7 +47,7 @@ const Calender = () => {
       </div>
       <div className="Grid-Box">
         {oppo.map((item) => (
-          <div>
+          <div key={item.id} >
             <h2 style={{fontSize:"22px"}} >{item.headOne}</h2>
             <p>{item.para}</p>
             <p style={{fontWeight:"900"}}>{item.date}</p>

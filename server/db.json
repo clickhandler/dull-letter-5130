@@ -84,5 +84,55 @@
       "Img": "https://secureservercdn.net/45.40.145.201/79x.0e9.myftpupload.com/wp-content/uploads/2020/12/Calendar_August.jpg",
       "id": 12
     }
+  ],
+  "register": [
+    {
+      "name": "Mishti",
+      "email": "Mishti@test.com",
+      "password": "5768",
+      "cpassword": "5867",
+      "phone": "8899",
+      "id": 1
+    },
+    {
+      "name": "kiran",
+      "email": "kiran@test",
+      "password": "1212",
+      "cpassword": "9090",
+      "phone": "9999",
+      "id": 2
+    },
+    {
+      "name": "Hello",
+      "email": "Hello@test.com",
+      "password": "7878",
+      "cpassword": "7878",
+      "phone": "90909090",
+      "id": 3
+    },
+    {
+      "name": "kkkk",
+      "email": "kkkkk",
+      "password": "kk",
+      "cpassword": "kkk",
+      "phone": "9999",
+      "id": 4
+    },
+    {
+      "name": "khhh",
+      "email": "vfyf",
+      "password": "ufgfu",
+      "cpassword": "uuasfgg",
+      "phone": "9899898",
+      "id": 5
+    },
+    {
+      "name": "jjj",
+      "email": "jj@test",
+      "password": "Hello",
+      "cpassword": "Hello",
+      "phone": "9090",
+      "id": 6
+    }
   ]
 }
