@@ -14,3 +14,11 @@
 .BTN {
   margin: 30px;
 }
+
+/* @media all and (min-width:400px) and (max-width:700px){
+
+  .Content{
+    background-color: teal;
+  }
+} 
+    */

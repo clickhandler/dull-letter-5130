@@ -15,3 +15,22 @@
     border: 1px solid black;
     padding: 10px;
 }
+
+@media all and (min-width:400px) and (max-width: 700px){
+    
+    .Grid-Box{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: auto;
+        width: 80%;
+        margin: auto;
+        text-align: center;
+        margin-bottom: 50px;
+        align-items: center;
+    }
+
+    .Grid-Box img{
+           width: 100%;
+    }
+
+}

@@ -3,12 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
-/* .Navbar{
-    width: 40%;
-    margin: auto;
-    
-   
-} */
+
 .Navbar img {
   width: 42%;
   margin: auto;
@@ -23,4 +18,31 @@
   border-bottom: 2px solid red;
   align-items: center;
   font-weight: bold;
+}
+
+
+/* Media Queries */
+
+@media all and (min-width: 400px) and (max-width: 700px) {
+  .Links {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    border-bottom: 1px solid teal;
+  }
+  .Links div {
+    margin: 5px;
+    width: 100%;
+   
+    
+    /* display: block; */
+  }
+  .Navbar img {
+    width: 50%;
+    margin: auto;
+    padding: 20px;
+  }
+
 }

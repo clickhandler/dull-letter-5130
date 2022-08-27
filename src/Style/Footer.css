@@ -20,3 +20,21 @@
     text-align: left;
     margin: 30px;
 }
+
+@media all and (min-width: 400px ) and (max-width: 700px){
+    *{
+        margin: 0;padding: 0;box-sizing: border-box;
+    }
+    .FooterDiv{
+        width: 100%;
+       
+    }
+    .Box:nth-child(1){
+        width: 30%;
+        margin-right: 60%;
+    }
+    .Box:nth-child(2){
+        width: 50%;
+    }
+
+} 
