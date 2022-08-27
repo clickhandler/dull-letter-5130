@@ -1,4 +1,4 @@
-import React, {useState } from "react";
+import React, { useState } from "react";
 
 import "../Style/Register.css";
 import { Input, Button, useDisclosure } from "@chakra-ui/react";
@@ -26,55 +26,54 @@ const Register = () => {
   const [password, setPass] = useState("");
   const [cpassword, setCpassword] = useState("");
   const [phone, setPhone] = useState("");
-
+  
+  
   const emailInput = () => {
     setemailIn("");
+   
   };
-
- 
-
-
 
   const userData = () => {
     let data = { name, email, password, cpassword, phone };
-    if(name===""&&email===""&&password===""&&cpassword===""&&password===""){
-      alert("Enter details")
+
+    if (
+      name === "" &&
+      email === "" &&
+      password === "" &&
+      cpassword === "" &&
+      password === ""
+    ) {
+      alert("Enter details");
+    } else if (password !== cpassword) {
+      alert("Password Not Match");
+    } else {
+      fetch("http://localhost:3000/register", {
+        method: "POST",
+        body: JSON.stringify(data),
+        headers: {
+          "Content-Type": "application/json",
+        },
+      })
+        .then((res) => {
+          res.json();
+        })
+        .catch((Error) => {
+          console.log("Error");
+        });
+
+      setTimeout(() => {
+        alert("Registraion Successfull");
+      }, 3000);
+
+      console.log(data);
+      setName("");
+      setEmail("");
+      setPass("");
+      setCpassword("");
+      setPhone("");
     }
-    else if(password!==cpassword){
-alert("Password Not Match")
-    }
-    else{
-    fetch("http://localhost:3000/register", {
-      method: "POST",
-      body: JSON.stringify(data),
-      headers: {
-        "Content-Type": "application/json"
-      }
-    }).then(res => {
-      res.json()
+  };
 
-    }).catch((Error) => {
-      console.log("Error")
-    })
-
-    setTimeout(() => {
-      alert("Registraion Successfull")
-
-    }, 3000)
-
-
-    
-    
-    console.log(data)
-    setName("");
-    setEmail("");
-    setPass("");
-    setCpassword("");
-    setPhone("");
-  }
-  }
-
-  
   return (
     <>
       <img
@@ -98,6 +97,7 @@ alert("Password Not Match")
             onChange={(e) => setemailIn(e.target.value)}
             placeholder="Email Address"
             required={true}
+            type={"email"}
           />
           <br />
           <br />
@@ -127,7 +127,9 @@ alert("Password Not Match")
                 onClick={() => {
                   onOpen();
                   emailInput();
+                  
                 }}
+                disabled={emailIn===""}
               >
                 CONTINUE
               </Button>
@@ -140,7 +142,6 @@ alert("Password Not Match")
       {/* <Button >Open Modal</Button> */}
 
       <Modal
-        style={{ with: "500px", height: "300px" }}
         initialFocusRef={initialRef}
         finalFocusRef={finalRef}
         isOpen={isOpen}
@@ -162,7 +163,7 @@ alert("Password Not Match")
             </FormControl>
 
             <FormControl mt={4}>
-              <FormLabel>Email</FormLabel>
+              <FormLabel>Confirm Email</FormLabel>
               <Input
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
@@ -212,7 +213,6 @@ alert("Password Not Match")
           </ModalFooter>
         </ModalContent>
       </Modal>
-
     </>
   );
 };

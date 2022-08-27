@@ -149,6 +149,14 @@
       "cpassword": "1231",
       "phone": "0099",
       "id": 8
+    },
+    {
+      "name": "test",
+      "email": "test@gmail.com",
+      "password": "9090",
+      "cpassword": "9090",
+      "phone": "9090",
+      "id": 9
     }
   ]
 }
