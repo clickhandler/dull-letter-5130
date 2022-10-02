@@ -157,6 +157,14 @@
       "cpassword": "9090",
       "phone": "9090",
       "id": 9
+    },
+    {
+      "name": "Ajay",
+      "email": "Ajay@test.com",
+      "password": "1234",
+      "cpassword": "1234",
+      "phone": "8607073242",
+      "id": 10
     }
   ]
 }

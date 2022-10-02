@@ -47,7 +47,7 @@ const Register = () => {
     } else if (password !== cpassword) {
       alert("Password Not Match");
     } else {
-      fetch("http://localhost:3000/register", {
+      fetch("https://safe-badlands-27546.herokuapp.com/register", {
         method: "POST",
         body: JSON.stringify(data),
         headers: {

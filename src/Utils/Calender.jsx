@@ -6,7 +6,7 @@ import "../Style/Calender.css";
 const Calender = () => {
   const [oppo, setOppo] = useState([]);
   useEffect(() => {
-    fetch("http://localhost:3000/calenders").then((res) => {
+    fetch("https://safe-badlands-27546.herokuapp.com/calenders").then((res) => {
       res
         .json()
         .then((resul) => {
